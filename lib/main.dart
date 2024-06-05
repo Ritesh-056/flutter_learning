@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:session_app/custom_paint/draw_circle.dart';
 import 'package:session_app/riverpod/providers.dart';
 import 'package:session_app/todo/todo_form.dart';
 
@@ -17,7 +18,8 @@ class MyPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: TodoForm(),
+      // home: TodoForm(),
+      home: const DrawCircle(),
     );
   }
 }
